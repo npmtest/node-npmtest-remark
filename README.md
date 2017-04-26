@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-remark/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-remark/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-remark/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-remark/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-remark/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-remark/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-remark/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-remark/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-remark/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-remark/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-remark/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-remark/build/coverage.html/index.html)
 
@@ -35,10 +35,35 @@
 ```json
 
 {
-    "name": "remark",
-    "version": "7.0.0",
+    "author": {
+        "name": "Titus Wormer",
+        "url": "http://wooorm.com"
+    },
+    "bugs": {
+        "url": "https://github.com/wooorm/remark/issues"
+    },
+    "contributors": [
+        {
+            "name": "Titus Wormer",
+            "url": "http://wooorm.com"
+        }
+    ],
+    "dependencies": {
+        "remark-parse": "^3.0.0",
+        "remark-stringify": "^3.0.0",
+        "unified": "^6.0.0"
+    },
     "description": "Markdown processor powered by plugins",
-    "license": "MIT",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "ce9c788c390d98d9a67cb7738e98246732e79144",
+        "tarball": "https://registry.npmjs.org/remark/-/remark-7.0.0.tgz"
+    },
+    "files": [
+        "index.js"
+    ],
+    "homepage": "http://remark.js.org",
     "keywords": [
         "markdown",
         "abstract",
@@ -49,23 +74,22 @@
         "stringify",
         "process"
     ],
-    "dependencies": {
-        "remark-parse": "^3.0.0",
-        "remark-stringify": "^3.0.0",
-        "unified": "^6.0.0"
+    "license": "MIT",
+    "maintainers": [
+        {
+            "name": "wooorm"
+        }
+    ],
+    "name": "remark",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wooorm/remark/tree/master/packages/remark"
     },
-    "homepage": "http://remark.js.org",
-    "repository": "https://github.com/wooorm/remark/tree/master/packages/remark",
-    "bugs": "https://github.com/wooorm/remark/issues",
-    "author": "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)",
-    "contributors": [
-        "Titus Wormer <tituswormer@gmail.com> (http://wooorm.com)"
-    ],
-    "files": [
-        "index.js"
-    ],
     "scripts": {},
-    "xo": false
+    "version": "7.0.0",
+    "xo": false,
+    "bin": {}
 }
 ```
 
